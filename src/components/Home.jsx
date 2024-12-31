@@ -124,16 +124,14 @@ function Home() {
           </motion.p>
 
           {/* Download CV Button */}
-          <motion.a
-            variants={Container(0.8)}
-            initial="hidden"
-            animate="visible"
-            href="/Gayatri_Shinde_CV.pdf"
-            download
+          <a
+            href="/Gayatri_Resume.pdf"
+            download="Gayatri_Resume.pdf"
             className="mt-6 inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full transition-transform transform hover:scale-105"
           >
             Download CV
-          </motion.a>
+          </a>
+
         </div>
 
         {/* Right Section */}
