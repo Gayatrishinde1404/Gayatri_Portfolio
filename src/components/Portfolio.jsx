@@ -1,8 +1,8 @@
 import React from 'react';
-import mealProjectImage from '../assets/Recepi.png';
-import covidTrackerImage from '../assets/Covid-19.png';
+import cryptoimg from '../assets/crypto.png';
+import recipeimg from '../assets/Recepi.png';
 import fruitShopImage from '../assets/FruitShop.png';
-import googleKeepCloneImage from '../assets/Google_Keep_Clone.png';
+import felixLearningHubImage from '../assets/FelixLearningHub.png';
 import weatherAppImage from '../assets/Wether.png';
 import { motion } from "framer-motion";
 
@@ -20,7 +20,7 @@ const Portfolio = () => {
       </motion.h2>
 
       <div className="space-y-12">
-        {/* Project 1: Find Meal for Your Ingredients */}
+        {/* Project 1: Cryptocurrency Tracker */}
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -50 }}
@@ -29,8 +29,8 @@ const Portfolio = () => {
         >
           <motion.img
             whileHover={{ scale: 1.05 }}
-            src={mealProjectImage}
-            alt="Find Meal for Your Ingredients"
+            src={cryptoimg}
+            alt="Cryptocurrency Tracker"
             className="w-full md:w-1/2 rounded-lg shadow-lg"
           />
           <motion.div
@@ -39,15 +39,15 @@ const Portfolio = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-4 md:mt-0 md:w-1/2"
           >
-            <h3 className="text-2xl font-bold">Find Meal for Your Ingredients</h3>
+            <h3 className="text-2xl font-bold">Cryptocurrency Tracker</h3>
             <p className="mt-2 text-gray-300">
-              A website to search for meals based on input ingredients, using an external meal API.
+             A crypto tracker showing real-time prices, trends, and historical data with API integration. Users can search coins and view market details.
             </p>
-            <p className="mt-2 text-blue-800">Technologies: HTML, CSS, JavaScript, API</p>
+            <p className="mt-2 text-blue-800">Technologies: React.js, Tailwind CSS, API Integration</p>
           </motion.div>
         </motion.div>
 
-        {/* Project 2: Covid-19 Tracker */}
+        {/* Project 2: Recipe Finder */}
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 50 }}
@@ -56,8 +56,8 @@ const Portfolio = () => {
         >
           <motion.img
             whileHover={{ scale: 1.05 }}
-            src={covidTrackerImage}
-            alt="Covid-19 Tracker"
+            src={recipeimg}
+            alt="Recipe Finder"
             className="w-full md:w-1/2 rounded-lg shadow-lg"
           />
           <motion.div
@@ -66,25 +66,52 @@ const Portfolio = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-4 md:mt-0 md:w-1/2"
           >
-            <h3 className="text-2xl font-bold">Covid-19 Tracker</h3>
+            <h3 className="text-2xl font-bold">Recipe Finder</h3>
             <p className="mt-2 text-gray-300">
-              A real-time tracker fetching Covid-19 statistics using RapidAPI.
+              A recipe app that suggests meals based on ingredients, fetching details, instructions, and images from an API.
             </p>
-            <p className="mt-2 text-blue-800">Technologies: HTML, CSS, JavaScript, API</p>
+            <p className="mt-2 text-blue-800">Technologies: HTML, CSS, JavaScript, API Integration</p>
           </motion.div>
         </motion.div>
 
-        {/* Project 3: FruitShop */}
+        {/* Project 3: Felix Learning Hub */}
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -50 }}
+          transition={{ duration: 0.5 }}
+          className="flex flex-col md:flex-row items-center md:space-x-8"
+        >
+          <motion.img
+            whileHover={{ scale: 1.05 }}
+            src={felixLearningHubImage}
+            alt="Felix Learning Hub"
+            className="w-full md:w-1/2 rounded-lg shadow-lg"
+          />
+          <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="mt-4 md:mt-0 md:w-1/2"
+          >
+            <h3 className="text-2xl font-bold">Felix Learning Hub</h3>
+            <p className="mt-2 text-gray-300">
+             Felix Learning Hub is a platform with course tracking, quizzes, and a discussion forum for students. Built with React.js, Tailwind CSS, Node.js, Express.js, and MongoDB.
+            </p>
+            <p className="mt-2 text-blue-800">Technologies: React.js, Tailwind CSS, Express.js, MongoDB, Node.js, Postman</p>
+          </motion.div>
+        </motion.div>
+
+        {/* Project 4: Fruit Shop */}
+        <motion.div
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 50 }}
           transition={{ duration: 0.5 }}
           className="flex flex-col md:flex-row items-center md:space-x-8"
         >
           <motion.img
             whileHover={{ scale: 1.05 }}
             src={fruitShopImage}
-            alt="FruitShop"
+            alt="Fruit Shop"
             className="w-full md:w-1/2 rounded-lg shadow-lg"
           />
           <motion.div
@@ -93,42 +120,15 @@ const Portfolio = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-4 md:mt-0 md:w-1/2"
           >
-            <h3 className="text-2xl font-bold">FruitShop</h3>
+            <h3 className="text-2xl font-bold">Fruit Shop</h3>
             <p className="mt-2 text-gray-300">
-              Fruit Shop Store: A user-friendly website offering seamless online fruit shopping with interactive features.
+             An interactive fruit shop landing page with a visually appealing UI, categorized fruit listings, and an intuitive design for a seamless browsing experience.
             </p>
-            <p className="mt-2 text-blue-800">Technologies: React, Tailwind CSS, Framer Motion</p>
+            <p className="mt-2 text-blue-800">Technologies: HTML, CSS, JavaScript</p>
           </motion.div>
         </motion.div>
 
-        {/* Project 4: Google Keep Clone */}
-        <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 50 }}
-          transition={{ duration: 0.5 }}
-          className="flex flex-col md:flex-row items-center md:space-x-8"
-        >
-          <motion.img
-            whileHover={{ scale: 1.05 }}
-            src={googleKeepCloneImage}
-            alt="Google Keep Clone"
-            className="w-full md:w-1/2 rounded-lg shadow-lg"
-          />
-          <motion.div
-            whileInView={{ opacity: 1, y: 0 }}
-            initial={{ opacity: 0, y: 50 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="mt-4 md:mt-0 md:w-1/2"
-          >
-            <h3 className="text-2xl font-bold">Google Keep Clone</h3>
-            <p className="mt-2 text-gray-300">
-              A clone of Google Keep for note-taking, implementing state management.
-            </p>
-            <p className="mt-2 text-blue-800">Technologies: React.js, React Hooks, Tailwind CSS</p>
-          </motion.div>
-        </motion.div>
-
-        {/* Project 5: Weather Forecasting App */}
+        {/* Project 5: Weather App */}
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -50 }}
@@ -138,7 +138,7 @@ const Portfolio = () => {
           <motion.img
             whileHover={{ scale: 1.05 }}
             src={weatherAppImage}
-            alt="Weather Forecasting App"
+            alt="Weather App"
             className="w-full md:w-1/2 rounded-lg shadow-lg"
           />
           <motion.div
@@ -147,11 +147,11 @@ const Portfolio = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-4 md:mt-0 md:w-1/2"
           >
-            <h3 className="text-2xl font-bold">Weather Forecasting App</h3>
+            <h3 className="text-2xl font-bold">Weather App</h3>
             <p className="mt-2 text-gray-300">
-              A React-based application displaying detailed weather data for cities with a clean and user-friendly interface.
+               A weather app providing real-time updates, temperature details, humidity, wind speed, and future forecasts for any location.
             </p>
-            <p className="mt-2 text-blue-800">Technologies: React.js, CSS, JavaScript, API Integration</p>
+            <p className="mt-2 text-blue-800">Technologies: HTML, CSS, JavaScript, API Integration</p>
           </motion.div>
         </motion.div>
       </div>
