@@ -125,7 +125,7 @@ function Home() {
 
           {/* Download CV Button */}
           <a
-            href="/Gayatri-Shinde-CV.pdf"
+            href="/GAYATRI_SHINDE_CV.pdf"
             download="Gayatri_Resume.pdf"
             className="mt-6 inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full transition-transform transform hover:scale-105"
           >
