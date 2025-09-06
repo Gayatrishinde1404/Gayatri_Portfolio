@@ -42,17 +42,19 @@ const About = () => {
             className="w-full lg:w-1/2 mt-10 lg:mt-0 px-4 lg:px-0 text-center lg:text-left"
           >
             <p className="text-lg leading-relaxed">
-              I’m <span className="font-bold text-purple-400">Gayatri Shinde</span>, a dedicated front-end developer focused
-              on building responsive, interactive, and user-friendly websites. With expertise in 
-              <span className="text-purple-400"> HTML, CSS, JavaScript</span>, and modern frameworks like 
-              <span className="text-purple-400"> React.js, Redux, Bootstrap, and Tailwind</span>, I aim to create seamless 
-              digital experiences that work across all devices.
-            </p>
-            <p className="mt-4 text-lg leading-relaxed">
-              I prioritize clean, efficient code and strive to ensure every project I build is not only functional 
-              but also visually appealing and intuitive to navigate. I'm passionate about staying current with the 
-              latest web technologies and delivering optimized, high-performance web applications.
-            </p>
+  I’m <span className="font-bold text-purple-400">Saraswati Shinde</span>, an IT student specializing in 
+  <span className="text-purple-400"> Data Analysis</span> with a strong foundation in 
+  <span className="text-purple-400"> Python, SQL, Power BI, and Tableau</span>. I also have experience in 
+  <span className="text-purple-400"> Software Design, Web Development, and Software Quality Management</span>, 
+  focusing on building innovative and data-driven solutions.
+</p>
+<p className="mt-4 text-lg leading-relaxed">
+  My projects span across <span className="text-purple-400">AI, OCR, API Integration</span>, and 
+  <span className="text-purple-400"> Real-time Applications</span>. I prioritize writing efficient, 
+  scalable code and aim to continuously advance my expertise in 
+  <span className="text-purple-400"> Analytics, AI, and Modern Software Technologies</span>.
+</p>
+
             <motion.a
               href="#contact"
               whileHover={{ scale: 1.1 }}

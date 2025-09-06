@@ -101,7 +101,7 @@ function Home() {
             animate="visible"
             className="text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight"
           >
-            Hello, I'm Gayatri Shinde
+            Hello, I'm Saraswati Shinde
           </motion.h1>
 
           {/* Front End Developer with Gradient and Animation */}
@@ -111,7 +111,7 @@ function Home() {
             transition={{ duration: 2, repeat: Infinity }} // Infinite animation
             className="text-3xl sm:text-4xl mt-4 bg-gradient-to-r from-pink-300 via-purple-500 to-blue-400 bg-clip-text text-transparent font-bold"
           >
-            Front End Developer
+            Aspiring Data Analyst
           </motion.h2>
 
           <motion.p
@@ -120,7 +120,7 @@ function Home() {
             animate="visible"
             className="text-xl sm:text-2xl mt-4 max-w-lg mx-auto lg:mx-0 font-light"
           >
-            A passionate front-end developer with expertise in React.js, HTML, CSS, and JavaScript. I build beautiful, responsive web experiences that engage and delight users.
+            IT student specializing in Data Analysis with skills in software design, coding, and web development. Passionate about creating innovative, AI-driven solutions to solve real-world problems
           </motion.p>
 
           {/* Download CV Button */}

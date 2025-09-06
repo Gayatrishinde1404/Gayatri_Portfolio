@@ -36,7 +36,7 @@ const Contact = () => {
           >
             <FaPhoneAlt className="text-green-400 text-2xl" />
             <a href="tel:+919307378250" className="text-lg text-blue-400 hover:underline">
-              +91 9307378250
+              +91 7755912230
             </a>
           </motion.div>
 
@@ -49,7 +49,7 @@ const Contact = () => {
           >
             <FaEnvelope className="text-red-400 text-2xl" />
             <a href="mailto:gayatrishinde1404@gmail.com" className="text-lg text-blue-400 hover:underline">
-              gayatrishinde1404@gmail.com
+              sarushinde302@gmail.com
             </a>
           </motion.div>
 
@@ -60,10 +60,10 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
             className="flex justify-center gap-6 mt-6"
           >
-            <a href="https://github.com/Gayatrishinde1404" target="_blank" rel="noopener noreferrer" className="text-3xl text-white hover:text-gray-400">
+            <a href="https://github.com/sarushinde302" target="_blank" rel="noopener noreferrer" className="text-3xl text-white hover:text-gray-400">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/gayatri-shinde-022692233/" target="_blank" rel="noopener noreferrer" className="text-3xl text-white hover:text-blue-400">
+            <a href="https://www.linkedin.com/in/saraswatishinde43/" target="_blank" rel="noopener noreferrer" className="text-3xl text-white hover:text-blue-400">
               <FaLinkedin />
             </a>
           </motion.div>

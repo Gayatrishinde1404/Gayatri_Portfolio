@@ -18,35 +18,46 @@ const Education = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-8"
       >
-        {/* Bachelor's Degree */}
+        {/* B.Tech Degree */}
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -50 }}
           transition={{ duration: 0.6, ease: "easeInOut" }}
-          className="bg-neutral-900 border border-gray-700 p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300"
+          className="bg-neutral-900 border border-purple-400 p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 max-w-md"
         >
           <h3 className="text-2xl font-semibold text-white">
-            Bachelor of Engineering in Electrical
+            B.Tech in Information Technology 
           </h3>
-          <p className="text-sm text-gray-500">Pune University | 2021 - 2024</p>
+          <p className="text-sm text-gray-500">
+            MIT ADT University, Loni Kalbhor | 2023 – Present
+          </p>
           <p className="mt-4 text-gray-300">
-            Graduated with an 8.5 CGPA, focusing on problem-solving and analytical thinking. Participated in various projects and hackathons.
+            Currently pursuing my degree with a focus on{" "}
+            <span className="font-semibold">Data Analysis, AI, and Software Development</span>. 
+            Worked on projects involving{" "}
+            <span className="font-semibold">AI, Web Applications, and Real-time Systems</span>.
           </p>
         </motion.div>
 
-        {/* Front-End Development Training */}
+        {/* Diploma */}
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 50 }}
           transition={{ duration: 0.6, ease: "easeInOut", delay: 0.2 }}
-          className="bg-neutral-900 border border-gray-700 p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300"
+          className="bg-neutral-900 border border-purple-400 p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 max-w-md"
         >
           <h3 className="text-2xl font-semibold text-white">
-            Front-End Development Training
+            Diploma in Information Technology
           </h3>
-          <p className="text-sm text-gray-500">Felix IT Systems | 2024</p>
+          <p className="text-sm text-gray-500">
+            JSPM Handewadi College | 2020 – 2023
+          </p>
           <p className="mt-4 text-gray-300">
-            Six-month training focused on modern web development, React.js, and frameworks like Tailwind CSS and Bootstrap.
+            Completed with <span className="font-semibold">68%</span>. 
+            Built a strong foundation in{" "}
+            <span className="font-semibold">Programming, Databases, and Software Design</span>. 
+            Actively participated in{" "}
+            <span className="font-semibold">academic projects and technical competitions</span>.
           </p>
         </motion.div>
       </motion.div>

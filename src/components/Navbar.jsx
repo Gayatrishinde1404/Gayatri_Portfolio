@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-black bg-opacity-90 shadow-md z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-white text-2xl font-bold">Gayatri</h1>
+        <h1 className="text-white text-2xl font-bold">Saraswati</h1>
 
         {/* Mobile menu icon */}
         <div className="md:hidden flex items-center">
